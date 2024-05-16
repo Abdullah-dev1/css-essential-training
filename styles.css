@@ -1,0 +1,103 @@
+/* COLORS 
+------------------------------------------*/
+:root {
+    --bg-color: #EAEDF0;
+    --footer-color: #627E8B;
+    --button-color-hover: #1D4029;
+    --button-color: #184B29;
+    --footer-text: #fff;
+    --footer-text-hover: #e4e4e4;
+}
+
+/* GLOBAL STYLES  
+------------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+body {
+    background: var(--bg-color);
+}
+
+/* Links */
+
+a {
+    color: var(--footer-text-hover);
+}
+
+a:hover {
+    color: var(--footer-text);
+    text-decoration: none;
+}
+
+footer a {
+    color: var(--footer-text);
+}
+
+footer a:hover {
+    color: var(--footer-text-hover);
+}
+
+.btn {
+    background: var(--button-color);
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: var(--button-color-hover);
+}
+
+/* HOME  
+------------------------------------------*/
+.home {
+    background: url(images/bg-home-office-studio.jpg) no-repeat;
+    background-size: cover;
+}
+
+.home .content-wrapper {
+    background: rgba(160, 160, 160, 0.9);
+}
+
+
+
+/* RESUME  
+------------------------------------------*/
+
+/* Profile  
+------------------------------------------*/
+
+/* Projects  
+------------------------------------------*/
+
+/* Work Experiencs  
+------------------------------------------*/
+
+/* Education  
+------------------------------------------*/
+
+
+/* FOOTER  
+------------------------------------------*/
+
+footer {
+    background: var(--footer-color);
+    color: var(--footer-text);
+}
+
+.socials {
+    list-style-type: none;
+    padding: 0;
+}
+
+.socials li {
+    display: inline-block;
+}
+
+.socials img {
+    width: 32px;
+}
